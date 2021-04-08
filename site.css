@@ -1,0 +1,40 @@
+body {
+  background-color: beige;
+}
+
+#board {
+  background-color: lightgray;
+  height: 600px;
+  width: 600px;
+}
+
+.centerThis {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.blackBox {
+  background-color: black;
+}
+
+.whiteBox {
+  background-color: white;
+}
+
+.greenBox {
+  background-color: green;
+}
+
+.redBox {
+  background-color: red;
+}
+
+.blueBox {
+  background-color: blue;
+}
