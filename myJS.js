@@ -31,4 +31,14 @@ for (let y = 0; y < arrayOfBoxes.length; y++) {
     
 }
 
-console.log(greenBoxes);
+//console.log(greenBoxes);
+
+//----- form code ---------------------------------------
+
+document.getElementById("bigLetters").addEventListener('change' , inspectKey);
+
+function inspectKey(event) {
+    console.log(event);
+    console.log(event.target.value);
+    document.getElementById("bigLetters").value = event.target.value.toUpperCase();
+}
